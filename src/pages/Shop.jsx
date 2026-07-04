@@ -9,7 +9,7 @@ const Shop = () => {
   const [sortBy, setSortBy] = useState('popular');
   const [selectedCategories, setSelectedCategories] = useState(['Cats']);
   const [priceRange, setPriceRange] = useState(250);
-  const [currentPage, setCurrentPage] = useState(1);
+  const [setCurrentPage] = useState(1);
 
   const navLinks = [
     { label: 'Shop', href: '/shop' },
